@@ -10,7 +10,7 @@
 '''
 
 
-from graphics import *
+from Lab1.Lecture_1.graphics import *
 import time
 import numpy as np
 import math as mt

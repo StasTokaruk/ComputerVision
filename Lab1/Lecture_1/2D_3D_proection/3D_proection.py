@@ -10,7 +10,7 @@
 
 '''
 
-from graphics import *
+from Lab1.Lecture_1.graphics import *
 import numpy as np
 import math as mt
 
@@ -138,7 +138,7 @@ xw = 600; yw = 600; st = 50; TetaG1 = 180; TetaG2 = -90
 l = (xw/2)-st; m = (yw/2)-st; n = m
 Prlpd1 = ShiftXYZ(Prlpd, l, m, n)
 Prlpd2 = dimetri(Prlpd1, TetaG1, TetaG2)
-#Prlpd2=insertX (Prlpd1, TetaG1)
+Prlpd2=insertX (Prlpd1, TetaG1)
 Prxy3 = ProjectXY(Prlpd2)
 PrlpdWiz(Prxy3)
 win.getMouse()
